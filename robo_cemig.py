@@ -89,7 +89,7 @@ try:
             print(f"Erro ao processar o código {codigo}: {e}")
 
 except Exception as e:
-    print("Ocorreu um erro:", str(e))
+    print("Ocorreu um erro na solicitacao:", str(e))
 
 finally:
     navegador.quit()
